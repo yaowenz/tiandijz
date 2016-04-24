@@ -1,0 +1,7 @@
+/vendor/
+/logs/*
+!/logs/README.md
+.project
+.buildpath
+.settings/
+templates/_cache/

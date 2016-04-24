@@ -15,10 +15,6 @@
   .cir_on{ background: #f08200 !important;}
   body {background:#fff}
 </style>
-<div class="weixin-code">
-	<p>微信扫一扫关注我们</p>
-	<img src="{{baseUrl}}/images/qrcode-tdjz.jpg" />
-</div>
 <div class="lubo">
   <ul class="lubo_box">
     <li style="opacity: 1;filter:alpha(opacity=100);" class="index slider slider-1">

@@ -1,3 +1,7 @@
+<div class="weixin-code">
+	<p>微信扫一扫关注我们</p>
+	<img src="{{baseUrl}}/images/qrcode-tdjz.jpg" />
+</div>
 <div class="header" id="top">
 	<div class="nav-top">
 		<img src="{{baseUrl}}/images/logo.png" class="logo" />

@@ -14,12 +14,7 @@ body {background-color:#ECEAE8}
 	 -->
 </div>
 <div class="main container">
-	<div class="nav">
-		<a href="#serve"  class="sp now"><span style="line-height: 20px;">服务<br />内容</span></a>
-		<a href="#price"><span>价格</span></a>
-		<a href="#promise"><span>承诺</span></a>
-		<a href="#process"><span>流程</span></a>
-	</div>
+	{% include 'content-nav-left.twig.php' %}
 	<div class="content">
 		<div class="Tbox" id="serve">
 			<img src="images/title.png" class="title"/>
@@ -62,35 +57,54 @@ body {background-color:#ECEAE8}
 		</div>
 		<div class="Tbox Tbox2" id="price">
 			<h3>服务价格</h3>
-			<p>宅速洁</p>
+			<h4>宅速洁</h4>
 			<table class="service">
-				<colgroup><col width="30%" /><col width="35%" /><col width="35%" /></colgroup>
+				<colgroup><col width="20%" /><col width="40%" /><col width="40%" /></colgroup>
 				<tr>
 					<th></th><th>服务费</th><th>中介费</th>
 				</tr>
 				<tr>
 					<td>普通客户</td><td>35-50元/小时</td><td>20元/次</td>
 				</tr>
-				<tr>
+				<tr style="border-top:1px dotted #aaa">
 					<td>会员</td><td>30-40元/小时</td><td>300元/年</td>
 				</tr>
 			</table>
-			<p class="p2">普通保洁</p>
+			<h4 style="margin-top:50px">普通保洁</h4>
 			<table class="service clear-service">
-				<colgroup><col width="22%" /><col width="26%" /><col width="26%" /><col width="26%" /></colgroup>
+				<colgroup>
+				<col width="22%" />
+				<col width="26%" />
+				<col width="26%" />
+				<col width="26%" />
+				</colgroup>
 				<tr>
-					<th></th><th>1-2次/每周</th><th>3-4次/每周</th><th>4次以上</th>
+					<th></th>
+					<th>1-2次/每周</th>
+					<th>3-4次/每周</th>
+					<th>4次以上</th>
 				</tr>
 				<tr>
-					<td>2-4小时</td><td rowspan="3">30-40元/小时</td><td rowspan="3">28-40元/小时</td><td>25-30元/小时<br>+<br>管理费 60元/月</td>
+					<td>2-4小时</td>
+					<td rowspan="3" style="border-left:1px dotted #aaa">30-40元/小时</td>
+					<td rowspan="3" style="border-left:1px dotted #aaa;border-right:1px dotted #aaa">28-40元/小时</td>
+					<td>25-30元/小时<br>
+						+<br>
+						管理费 60元/月</td>
 				</tr>
-				<tr>
-					<td>3小时</td><td>25-28元/小时<br>+<br>管理费 70元/月</td>
+				<tr style="border-top:1px dotted #aaa">
+					<td>3小时</td>
+					<td>25-28元/小时<br>
+						+<br>
+						管理费 70元/月</td>
 				</tr>
-				<tr>
-					<td>4小时及以上</td><td>25-27元/小时<br>+<br>管理费 80元/月</td>
+				<tr style="border-top:1px dotted #aaa">
+					<td>4小时及以上</td>
+					<td>25-27元/小时<br>
+						+<br>
+						管理费 80元/月</td>
 				</tr>
-			</table>
+			</table>	
 			<span class="thelast">*上海服务师价格上浮3-5元/小时，钟点工合同最低为12个月</span>
 		</div>
 		<!-- 服务承诺及流程 -->

@@ -6,12 +6,7 @@ body {background-color:#ECEAE8}
 </style>
 <img src="images/bg-5.jpg" class="inner top bg" />
 <div class="main container">
-	<div class="nav">
-		<a href="#serve"  class="sp now"><span style="line-height: 20px;">服务<br />内容</span></a>
-		<a href="#price"><span>价格</span></a>
-		<a href="#promise"><span>承诺</span></a>
-		<a href="#process"><span>流程</span></a>
-	</div>
+	{% include 'content-nav-left.twig.php' %}
 	<div class="content">
 		<div class="Tbox Tbox3" id="serve">
 			<img src="images/title.png" class="title"/>
@@ -43,16 +38,56 @@ body {background-color:#ECEAE8}
 		<div class="Tbox Tbox2" id="price">
 			<h3>服务价格</h3>
 			<table class="service">
-				<colgroup><col width="30%" /><col width="35%" /><col width="35%" /></colgroup>
 				<tr>
-					<th>级别</th><th>中介制</th><th>准管理制</th>
+					<th width="35%">级别</th>					
+					<th>中介制</th>
+					<th>准管理制</th>					
 				</tr>
 				<tr>
-					<td><img src="images/star1.png" class="star"/></td><td>4000-5000元</td><td>6000-7000元</td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+					</td>
+					<td>4000~5000元</td>
+					<td>6000~7000元</td>					
 				</tr>
 				<tr>
-					<td><img src="images/star2.png" class="star"/></td><td></td><td></td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>5000~6000元</td>
+					<td>7000~8000元</td>				
 				</tr>
+				<tr>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>					
+					<td>6000~7000元</td>
+					<td>8000~9000元</td>					
+				</tr>
+				<tr>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>7000~8000元</td>
+					<td>9000~10000元</td>					
+				</tr>
+				<tr>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>8000元以上</td>
+					<td>10000元以上</td>					
+				</tr>			
 			</table>
 		</div>
 		<!-- 服务承诺及流程 -->

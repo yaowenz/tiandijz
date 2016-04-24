@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .clearfix { zoom: 1; }
 .clearfix:after { display: block; overflow: hidden; clear: both; height: 0; visibility: hidden; content: '.'; }
 .main{width: 1080px;margin: 0 auto;}
+td.align.center {text-align:center}
 /*.swiper-container {width: 100%; -position: absolute;}
 .swiper-slide {text-align: center;font-size: 18px;background: #fff;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex; -webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
 .swiper-container-banner {width: 100%;min-width: 1080px;z-index: 2;left: 0;height: 550px;position: absolute;}
@@ -101,7 +102,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .container .content h1.tit-h{width: 160px;text-align: center;}
 .container .Tbox{margin-bottom: 30px;background: #fff;padding: 0 40px 0 30px;}
 .container .Tbox .p2{margin-top: 35px;}
-.container .Tbox .thelast{color: #878787;line-height: 40px;font-size: 12px;}
+.container .Tbox .thelast{color: #ED746B;line-height: 1.8;font-size: 14px;padding-right:15px}
 .container .Tbox .thelast2{color: #878787;line-height: 18px;font-size: 12px;display: block;padding-top: 15px;}
 .container .content .tit{line-height:1.8;text-indent:32px;color: #F08300;font-size: 15px;margin-top: 30px;margin-bottom: 30px;}
 .container .TxtBox{height: 150px;position: relative;margin-bottom: 30px;}
@@ -111,14 +112,14 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .container .TxtBox p{margin-top: 20px;color: #7b7b7b;}
 .container .theLast{padding-bottom: 70px;}
 .container table.service{border:0;width: 100%;text-align: center;}
-.container .service th{background: #bde4f9;height: 40px;;color: #575654;padding:10px}
+.container .service th{background: #bde4f9;height: 40px;;color: #575654;padding:5px;font-size:16px}
 .container h3{color: #F08300;margin: 0px 0 25px 0;padding-top: 15px;font-size: 24px;}
-.container .service td{height: 40px;padding:10px;color: #898989;}
+.container .service td{height: 40px;padding:10px;color: #333;}
 .container .service td img{width: 20px;}
 .container td img.star{width: 65px;height: 15px;}
 .container .Tbox2{padding: 0 30px 30px;}
 .container .order .top{background: #fff;}
-.container .order h2{color: #F08300;font-size: 18px;border-bottom: 1px solid #c8c9c9;padding: 10px 15px 8px;}
+.container .order h2{color: #F08300;font-size: 24px;border-bottom: 1px solid #c8c9c9;padding: 10px 15px 8px;}
 .container .order form{padding: 0 20px;line-height: 50px;}
 .container .frist span,.container .frist div{float: left;}
 .container .order .radio{margin-top: 13px;margin-left: 10px;}
@@ -247,7 +248,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .pensionLast ul{width: 280px;float: left;margin-left: 40px;font-size: 13px;color: #7b7b7b;list-style: disc;}
 .pensionLast ul li{line-height: 24px;}
 .clear{position: relative;border-top:1px solid #eceaea;height: 130px;width: 580px;}
-.clear h2{font-size: 18px;margin-top: 10px;}
+.clear h2{font-size: 18px;margin-top: 10px;margin-bottom:5px}
 .clear p{font-size: 13px;color: #575654;width: 440px;}
 .clear img{width: 120px;height: 120px;border-radius: 50%;position: absolute;top: -40px;right: -20px;}
 .clear-left{margin-left: 20px;width: 570px;text-align: right;}
@@ -327,6 +328,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .silder_intro p{font-size:12px;line-height:20px;}
 .dec{bottom:10px;right:200px;overflow:hidden;z-index:9;position:absolute;}
 .dec li{margin-top:0px;float:left;display:inline;}
+#price h4 {color:#5EBFAE!important;font-size:18px;line-height:30px;margin-bottom:10px!important}
 /** silders **/
 .index.slider {background-position:center bottom;background-size:100% auto}
 .index.slider-1 {background-image:url('../images/banner1.jpg')}

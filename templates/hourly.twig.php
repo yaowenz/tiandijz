@@ -12,12 +12,7 @@ body {background-color:#ECEAE8}
 	</div>
 </div>-->
 <div class="main container">
-	<div class="nav">
-		<a href="#serve"  class="sp now"><span style="line-height: 20px;">服务<br />内容</span></a>
-		<a href="#price"><span>价格</span></a>
-		<a href="#promise"><span>承诺</span></a>
-		<a href="#process"><span>流程</span></a>
-	</div>
+	{% include 'content-nav-left.twig.php' %}
 	<div class="content">
 		<div class="Tbox" id="serve">
 			<img src="images/title2.png" class="title2"/>
@@ -50,46 +45,60 @@ body {background-color:#ECEAE8}
 		
 		<div class="Tbox Tbox2" id="price">
 			<h3>服务价格</h3>
-			<p class="p2">钟点制</p>
+			<h4>钟点制</h4>
 			<table class="service clear-service">
-				<colgroup><col width="22%" /><col width="26%" /><col width="26%" /><col width="26%" /></colgroup>
+				<colgroup>
+				<col width="22%" />
+				<col width="26%" />
+				<col width="26%" />
+				<col width="26%" />
+				</colgroup>
 				<tr>
-					<th></th><th>1-2次/每周</th><th>3-4次/每周</th><th>4次以上</th>
+					<th></th>
+					<th>1-2次/每周</th>
+					<th>3-4次/每周</th>
+					<th>4次以上</th>
 				</tr>
 				<tr>
-					<td>2-4小时</td><td rowspan="3">30-40元/小时</td><td rowspan="3">28-40元/小时</td><td>25-30元/小时<br>+<br>管理费 60元/月</td>
+					<td>2-4小时</td>
+					<td rowspan="3" style="border-left:1px dotted #aaa">30-40元/小时</td>
+					<td rowspan="3" style="border-left:1px dotted #aaa;border-right:1px dotted #aaa">28-40元/小时</td>
+					<td>25-30元/小时<br>
+						+<br>
+						管理费 60元/月</td>
 				</tr>
-				<tr>
-					<td>3小时</td><td>25-28元/小时<br>+<br>管理费 70元/月</td>
+				<tr style="border-top:1px dotted #aaa">
+					<td>3小时</td>
+					<td>25-28元/小时<br>
+						+<br>
+						管理费 70元/月</td>
 				</tr>
-				<tr>
-					<td>4小时及以上</td><td>25-27元/小时<br>+<br>管理费 80元/月</td>
+				<tr style="border-top:1px dotted #aaa">
+					<td>4小时及以上</td>
+					<td>25-27元/小时<br>
+						+<br>
+						管理费 80元/月</td>
 				</tr>
 			</table>
-			<span class="thelast">*上海服务师价格上浮3-5元/小时，钟点工合同最低为12个月</span>
-			<p style="margin-top: 15px;">钟点制</p>
+			<p class="thelast" style="margin-top:15px">*上海服务师价格上浮3-5元/小时，钟点工合同最低为12个月</p>
+			<h4 style="margin-top:50px">全日制</h4>
 			<table class="service">
-				<colgroup><col width="30%" /><col width="35%" /><col width="35%" /></colgroup>
 				<tr>
-					<th></th><th>中介制</th><th>准员工制</th>
+					<th width="50%">服务时间</th><
+					<th>准员工制</th>
 				</tr>
 				<tr>
-					<td>做六休一</td><td>30-40元/小时</td><td>4800-6000元</td>
-				</tr>
-				<tr>
-					<td>3小时</td><td></td><td></td>
-				</tr>
-				<tr>
-					<td>4小时及以上</td><td></td><td></td>
+					<td>做六休一 8:00 ~ 18:00</td>
+					<td>4800-6000元</td>
 				</tr>
 			</table>
-			<span class="thelast2">*准员工制管理费收费标准: 第1-6个月288元/月;<br />
-			第7个月起为188元;<br />
-			第13个月起为88元/月; <br />
-			每天多增加1小时工作,工资加200-250元/月; <br />
-			每月多增加1天工作,工资加500-700元/月; <br />
-			合同起签为6个月; </span><br />
-			
+			<p class="thelast" style="margin-top:15px">*合同起签为6个月 </p>
+			<p class="thelast">*准员工制管理费收费标准：</p>
+			<p class="thelast" style="margin-left:8px">第1-6个月288元/月；</p>
+			<p class="thelast" style="margin-left:8px">第7个月起为188元； </p>
+			<p class="thelast" style="margin-left:8px">第13个月起为88元/月； </p>
+			<p class="thelast" style="margin-left:8px">每天多增加1小时工作,工资加200-250元/月； </p>
+			<p class="thelast" style="margin-left:8px">每月多增加1天工作,工资加500-700元/月； </p>			
 		</div>	
 		<!-- 服务承诺及流程 -->
 		{% include 'service-standards.twig.php' %}

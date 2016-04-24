@@ -12,12 +12,7 @@ body {background-color:#E8ECEB}
 	</div>
 </div>-->
 <div class="main container">
-	<div class="nav">
-		<a href="#serve"  class="sp now"><span style="line-height: 20px;">服务<br />内容</span></a>
-		<a href="#price"><span>价格</span></a>
-		<a href="#promise"><span>承诺</span></a>
-		<a href="#process"><span>流程</span></a>
-	</div>
+	{% include 'content-nav-left.twig.php' %}
 	<div class="content">
 		<div class="Tbox" id="serve">
 			<img src="images/title.png" class="title"/>
@@ -55,23 +50,69 @@ body {background-color:#E8ECEB}
 		<div class="Tbox Tbox2" id="price">
 			<h3>服务价格</h3>
 			<table class="service">
-				<colgroup><col width="108px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /></colgroup>
 				<tr>
-					<th>级别</th><th>价格</th><th>工作经验</th><th>家务</th><th>幼儿护理</th><th>营养餐</th><th>早教技能</th>
+					<th width="35%">级别</th>
+					<th>价格</th>
+					<th>经验</th>
 				</tr>
 				<tr>
-					<td><img src="images/star1.png" class="star"/></td><td>4800元</td><td>2年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td><td></td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+					</td>
+					<td>8800元</td>
+					<td>5次</td>					
 				</tr>
 				<tr>
-					<td><img src="images/star2.png" class="star"/></td><td>5800元</td><td>3年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td><td></td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>10800元</td>
+					<td>5~15次</td>				
 				</tr>
 				<tr>
-					<td><img src="images/star3.png" class="star"/></td><td>6800元</td><td>4年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>12800元</td>
+					<td>15~20次</td>					
 				</tr>
 				<tr>
-					<td><img src="images/star4.png" class="star"/></td><td>8800元</td><td>6年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>15800元</td>
+					<td>20~30次</td>					
+				</tr>
+				<tr>
+					<td class="align center">
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+						<img src="images/star-single.png"/>
+					</td>
+					<td>18800元</td>
+					<td>30~40次</td>					
+				</tr>
+				<tr>
+					<td class="align center" style="color:#EC8E21">
+						金牌
+					</td>
+					<td>22800元</td>
+					<td>40次以上</td>					
 				</tr>
 			</table>
+			<p class="thelast" style="margin-top:15px">*整月实际服务按照26天计算（可选择连做或做六休一）</p>
+			<p class="thelast">*平常休息日若需加班，加班费按照 1:1 计算（日服务费=月服务费/26）</p>
+			<p class="thelast">*法定节假日服务，日服务费按照两倍计算</p>
+			<p class="thelast">*若新生儿为双胞胎，服务费需另加约20%</p>
+			
 		</div>			
 		<!-- 服务承诺及流程 -->
 		{% include 'service-standards.twig.php' %}

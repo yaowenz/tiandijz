@@ -6,12 +6,7 @@ body {background-color:#E8ECED}
 </style>
 <img src="images/bg-7.jpg" class="inner top bg" />
 <div class="main container">
-	<div class="nav">
-		<a href="#serve"  class="sp now"><span style="line-height: 20px;">服务<br />内容</span></a>
-		<a href="#price"><span>价格</span></a>
-		<a href="#promise"><span>承诺</span></a>
-		<a href="#process"><span>流程</span></a>
-	</div>
+	{% include 'content-nav-left.twig.php' %}
 	<div class="content">
 		<div class="Tbox" id="serve">
 			<img src="images/title.png" class="title"/>
@@ -74,22 +69,59 @@ body {background-color:#E8ECED}
 		</div>				
 		<div class="Tbox Tbox2" id="price">
 			<h3>服务价格</h3>
-			<table class="service">
-				<colgroup><col width="108px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /><col width="82px" /></colgroup>
+			<table class="service">	
 				<tr>
-					<th>级别</th><th>价格</th><th>工作经验</th><th>家务</th><th>幼儿护理</th><th>营养餐</th><th>早教技能</th>
+					<th>级别</th>
+					<th>价格/月</th>
+					<th>全自理</th>
+					<th>半自理</th>
+					<th>全护理</th>
+					<th>不可控</th>
+					<th>团队服务</th>					
 				</tr>
 				<tr>
-					<td><img src="images/star1.png" class="star"/></td><td>4800元</td><td>2年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td><td></td>
+					<td><img src="images/star1.png" class="star"/></td>
+					<td>3500元</td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td><img src="images/star2.png" class="star"/></td><td>5800元</td><td>3年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td><td></td>
+					<td><img src="images/star2.png" class="star"/></td>
+					<td>4000元</td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td><img src="images/star3.png" class="star"/></td><td>6800元</td><td>4年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td></td>
+					<td><img src="images/star3.png" class="star"/></td>
+					<td>4500元</td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td></td>					
+					<td></td>
 				</tr>
 				<tr>
-					<td><img src="images/star4.png" class="star"/></td><td>8800元</td><td>6年以上</td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td><td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/star4.png" class="star"/></td>
+					<td>5000元</td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td></td>					
+				</tr>
+					<td><img src="images/star4.png" class="star"/></td>
+					<td>6500元</td>
+					<td><img src="images/iconfont-dui.png" /></td>					
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
+					<td><img src="images/iconfont-dui.png" /></td>
 				</tr>
 			</table>
 		</div>

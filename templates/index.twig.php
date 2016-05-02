@@ -42,19 +42,19 @@
 </div>
 {% include 'header.twig.php' %}   
 <div class="main myService">
+	<div style="text-align:center;padding-bottom:30px;border-bottom:1px dotted #ccc;margin-bottom:30px">
+		<img src="{{baseUrl}}/images/service-slogon.png" width="500">
+	</div>
 	<h2>我们的服务</h2>
 	<p>家政员档案严格把关，客户评价终身相伴，用我们的专业换取您的满意</p>
 	<div class="myService-img">
-		<a href="{{baseUrl}}/cleaning"><img src="{{baseUrl}}/images/page7-2.png" /></a>
+		<a href="{{baseUrl}}/mammy"><img src="{{baseUrl}}/images/page7-2.png" /></a>
 		<a href="{{baseUrl}}/caring"><img src="{{baseUrl}}/images/page8-2.png" /></a>
 		<a href="{{baseUrl}}/cleaning"><img src="{{baseUrl}}/images/page3-2.png" /></a>
 		<a href="{{baseUrl}}/fulltime"><img src="{{baseUrl}}/images/page4-2.png" /></a>
 		<a href="{{baseUrl}}/hourly"><img src="{{baseUrl}}/images/page5-2.png" /></a>
 		<a href="javascript:;"><img src="{{baseUrl}}/images/page6-2.png" /></a>
-	</div>
-	<div style="text-align:center;padding-bottom:30px">
-		<img src="{{baseUrl}}/images/service-slogon.png" width="500">
-	</div>
+	</div>	
 </div>   
 <div class="aspects">
 	<div class="main">
@@ -76,12 +76,16 @@
 	<div class="l">
 		<h2>我们认真对待每一个客户</h2>
 		<div>
-			<p>天地家政为我们安排了驾驶员金先生，做事非常仔细，驾驶技能出色，对上海的线路相当熟悉，他开车我们相当放心。而且他还烧了一手不错的上海菜，在我家接待客人的时候帮了很大的忙。是为非常出色的人才。</p>
-			<span style="padding-left:10px">（银行经理）殷太太 </spanpadding-left:10px>
+			<p>妈妈是个很挑剔的人，严重的强迫症，一直劝她找个钟点工帮她分担点家务，就是不肯，说不放心别人干的活；没想到上周去小姐妹家正好碰上阿姨在的日子，回来就不停的叨念说这阿姨干活习惯好有条理，像她！后来在妈妈小姐妹推荐下去天地家政订了这个阿姨，工作人员很热心也很耐心，帮我们安排了最快的上门时间，昨天来过以后妈妈可满意了，我们也省心很多，好评一个！</p>
+			<span style="padding-left:10px">陈女士</span>
 		</div>
 		<div>
-			<p class="last">贵公司的客户顾问英文非常的流利，同时也非常的专业化，同时提供菲佣的素质非常的高，衷心希望天地家政越做越好。 </p>
-			<span class="last">（外企代表）RICO </span>
+			<p>天地家政老师有责任感，不厌其烦帮我推荐阿姨，我现在选择2位阿姨非常称心如意，天地阿姨，专业服务，家的美丽天使！</p>
+			<span style="padding-left:10px">王女士</span>
+		</div>
+		<div>
+			<p>6/8大婚，刚开始两个人一起住，感觉没什么家务，但大家又都不想做。我不想搽家具，男人不想洗内衣裤和袜子。两个人协商，找个周末来家的钟点工，一周就2个小时，大家都轻松，花费也不多。新房水城路附近，所以就找了天地。用了阿姨一个月左右，感觉阿姨不错，做事很勤快，满意~~~ </p>
+			<span>苏女士 </span>
 		</div>
 	</div>
 	<div class="r">

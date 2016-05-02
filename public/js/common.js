@@ -150,14 +150,16 @@ $(function(){
 		$(".mapBox li").removeClass("now").eq($(this).index()).addClass("now")
 	})	
 	//code
-	$(".weixin").mouseover(function(){
-		var h =$(window).height();
-		$(".weixin-code").css("top", $(window).scrollTop()+((h-410)/2)+"px");
-		$(".weixin-code").fadeIn()
-	})
-	$(".weixin").mouseout(function(){
-		$(".weixin-code").fadeOut()
-	})
+	$(".weixin").hover(
+			function(){
+				var h =$(window).height();
+				$(".weixin-code").css("top", $(window).scrollTop()+((h-410)/2)+"px");
+				$(".weixin-code").fadeIn()
+			},
+			function(){
+				$(".weixin-code").fadeOut()
+			}
+	);
 	
 	var si = $(".foot").offset().top;	
 	
@@ -182,9 +184,6 @@ $(function(){
 		}
 		})
 	}
-	
-	
-	
 	
 	
 	$(window).resize(function(){

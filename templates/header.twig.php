@@ -1,10 +1,10 @@
 <div class="weixin-code">
-	<p>微信扫一扫关注我们</p>
+	<p>微信扫一扫，在线选人</p>
 	<img src="{{baseUrl}}/images/qrcode-tdjz.jpg" />
 </div>
 <div class="header" id="top">
 	<div class="nav-top">
-		<img src="{{baseUrl}}/images/logo.png" class="logo" />
+		<a href="{{baseUrl}}"><img src="{{baseUrl}}/images/logo.png" class="logo" alt="天地家政" /></a>
 		<div class="nav-r">
 			<div class="phone">
 				<!-- 
@@ -17,6 +17,7 @@
 			<div class="main-nav">
 				<ul>
 					<li class="nav-index"><a href="{{baseUrl}}">首页</a></li>
+					<li class="nav-workers weixin"><a href="javascript:;">在线选人</a></li>
 					<!-- 
 					<li><a href="selection.html">在线选人</a></li>
 					 -->

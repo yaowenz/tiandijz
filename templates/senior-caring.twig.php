@@ -31,7 +31,7 @@ body {background-color:#E8ECED}
 				</div>
 				<div>
 					<img src="images/pension-bg1.png" />
-					<h3>心理想疏导</h3>
+					<h3>心理疏导</h3>
 					<span>提供读报、聊天、交流等服务</span>
 				</div>
 				<div class="clearfix"></div>

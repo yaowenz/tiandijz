@@ -1,0 +1,360 @@
+@CHARSET "UTF-8";
+
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #535353;
+}
+
+p {line-height:1.6}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+  background:url(../images/mobile/icon.png) no-repeat;
+  background-size: auto 1000%;
+}
+.icon-credit-card {
+  background-position: -144px -48px;
+}
+.icon-exp {
+  background-position: -112px -48px;
+}
+.icon-edu {
+  background-position: -128px -48px;
+}
+.icon-msg {
+  margin-right: 10px;
+  background-position: -48px -32px;
+}
+.icon-inhome {
+  background-position: -80px -48px;
+}
+.icon-inhome-gray {
+  background-position: -80px -64px;
+}
+.icon-remove {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background-position: -120px -80px;
+}
+.icon-birthday {
+  margin-right: 3px;
+  background-position: -112px -64px;
+}
+.icon-hotline {
+  margin-right: 5px;
+  background-position: -64px -32px;
+}
+.icon-address {
+  margin-right: 5px;
+  background-position: -80px -32px;
+}
+.icon-business-hours {
+  margin-right: 5px;
+  background-position: -96px -32px;
+}
+.icon-area {
+  background-position: -32px 0;
+}
+.icon-sh {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-position: -140px -40px;
+}
+.icon-filter {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-position: -40px -40px;
+}
+.icon-four-search {
+  background-position: -128px -32px;
+}
+.icon-money {
+  background-position: -96px -48px;
+}
+.icon-ayi {
+  width: 20px;
+  height: 20px;
+  background-position: -180px -40px;
+}
+.icon-home {
+  width: 20px;
+  height: 20px;
+  margin: 5px auto 3px;
+  background-position: 0px -80px;
+}
+.active > .icon-home {
+  background-position: 0px -60px;
+}
+.icon-chooseperson {
+  width: 40px;
+  height: 20px;
+  margin: 5px auto 3px;
+  background-position: -20px -80px;
+}
+.active > .icon-chooseperson {
+  background-position: -20px -60px;
+}
+.icon-requirement {
+  width: 20px;
+  height: 20px;
+  margin: 5px auto 3px;
+  background-position: -60px -80px;
+}
+.active > .icon-requirement {
+  background-position: -60px -60px;
+}
+.icon-order {
+  width: 20px;
+  height: 20px;
+  margin: 5px auto 3px;
+  background-position: -80px -80px;
+}
+
+#index {
+  background: #f3f3f4;
+}
+#index h4 {
+  font-size: 14px;
+}
+#index #categray {
+  background: #fff;
+  padding-top: 15px;
+}
+#index #honor {
+  background: #fff;
+}
+#index #honor h4 {
+  color: #959595;
+  font-size: 12px;
+  font-weight: bold;
+  min-height:30px;
+  margin-top:5px
+  margin-bottom: 5px;
+}
+#index #honor img {
+  width: 60%;
+}
+#index #honor p {
+  line-height: 1em;
+  font-size: 11px;
+  color: #959595;
+  margin-bottom:0px
+}
+#index #honor .btn-group-justified .btn-group{
+  padding: 10px;
+  vertical-align: top;
+  border-right: 3px solid #f3f3f4;
+}
+#index #honor .btn-group-justified .btn-group:last-child{
+  border-right: 0;
+}
+#index #info h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+#index #info p {
+  margin-bottom: 0px;
+}
+
+#index #info .media {
+  background: #fff;
+  padding:15px
+}
+#index #info .media-body {
+  padding-left:5px
+}
+#index #info .media-object {
+  width: 80px;
+  border: 5px solid #e5e5e5;
+}
+#ad, #banner, #categray, #honor {margin-bottom: 10px;}
+
+#categray,
+#honor {
+  
+  text-align: center;
+}
+.img-circle {
+  width: 66%;
+  height: 66%;
+}
+#header {
+  background: #3fc3b7;
+  color: #fff;
+
+}
+h4 {
+  font-size: 16px;
+}
+#header h4 {
+  font-size: 16px;
+  margin: 0;
+  line-height: 50px;
+}
+#header .filter {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+.panel-default>.panel-heading {
+  line-height: 34px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.panel-default>.panel-footer {
+  line-height: 34px;
+  padding: 5px 10px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+}
+.panel-footer .btn-default:active, 
+.panel-footer .btn-default {
+  border:1px solid #0dc3b7;
+  color: #0dc3b7;
+}
+.media .glyphicon {
+  color: #3fc3b7;
+}
+.media span {
+  margin-right: 10px;
+}
+.media h4 span {
+  margin-left: 10px;
+  color: #3fc3b7;
+}
+.navbar i{
+  clear:both;
+  font-size: 22px;
+  margin-bottom:3px;
+  display: block;
+}
+.navbar .btn-link{
+  padding: 0;
+}
+.btn {
+  padding: 6px 6px;
+  border-radius: 0;
+  background: none;
+  color: #818181;
+  border: 1px solid #818181;
+}
+.btn-link {
+  border:0;
+  padding-left:0;
+}
+.btn-link:active,
+.btn-link.active {
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+}
+.changepadding {
+  padding: 0 10px;
+}
+.changepadding .col-xs-3 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.mypart {
+  background: #fff;
+  margin-bottom: 10px;
+}
+.mypart .title {
+  font-size: 14px;
+  padding-top: 10px;
+  color: #363636;
+}
+.mypart .form-control {
+  border: 0;
+  box-shadow: none;
+}
+.btn.active, .btn:active {
+  box-shadow:none;
+  color: #3fc3b7;
+  border: 1px solid #3fc3b7;
+}
+.form-inline .form-control{
+  border:0;
+  border-radius: 0;
+  box-shadow: none;
+  display: inline-block;
+  width: auto;
+}
+
+.form-control-static {
+  display: inline-block;
+}
+input {
+  text-align: right;
+}
+.btn-primary {
+  color: #fff;
+  background: #3fc3b7;
+  border: 0;
+  padding: 10px 16px;
+}
+.container-fuild .panel {
+  border-radius: 0;
+  border-left:0;
+  border-right: 0;
+}
+.container-fuild .list-group-item {
+  border-left:0;
+  border-right: 0;
+}
+#message {
+  font-size: 14px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.navbar .btn {
+  text-decoration: none;
+}
+.navbar .btn.active {
+  border: 0;
+  color: #0dc3b7;
+}
+.swiper-container img {
+  width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom:0;
+}
+.swiper-pagination-bullet-active {
+  background:#f78126;
+}
+.page_list {
+  background: #f1f1f1;
+}
+.page_list .media-heading {
+  color: #;
+}
+.page_list .media-object {
+  width: 50px;
+}
+.page_list .media-body p {
+  margin-bottom: 6px;
+}
+.page_list .panel {
+  margin: 10px 0;
+  border: 0;
+}
+.page_filter {
+  background: #0dc3b7;
+}
+.page_list .media-body .pull-right {
+  width: 100px;
+}
+.page_list .media-body .icon {
+  margin-right: 10px;
+}

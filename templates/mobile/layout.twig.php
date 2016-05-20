@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<title>{{ pageTitle ? pageTitle ~ ' - ' : '' }}天地家政</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="{{baseUrl}}/css/base.css" />
-    <script src="{{baseUrl}}/js/jquery.min.js"></script>
-	<script type="text/javascript" src="{{baseUrl}}/js/common.js" ></script>
-	<script type="text/javascript" src="{{baseUrl}}/js/lubotu.js" ></script>
-	<script type="text/javascript" src="{{baseUrl}}/js/jquery.slides.js" ></script>
-	<link rel="icon" type="image/png" href="{{baseUrl}}/images/favicon.png" />  
-	{% include 'header-tongji.twig.php' %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天地家政</title>
+    <link href="{{baseUrl}}/js/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{baseUrl}}/js/swiper-dist/css/swiper.min.css" rel="stylesheet">
+    <link href="{{baseUrl}}/css/mobile.css" rel="stylesheet">
+    <script src="{{baseUrl}}/js/jquery-dist/jquery.min.js"></script>
+    <script src="{{baseUrl}}/js/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="{{baseUrl}}/js/swiper-dist/js/swiper.jquery.min.js"></script>
+    {% include 'header-tongji.twig.php' %}   
 </head>
 <body>
 	{% block content %}

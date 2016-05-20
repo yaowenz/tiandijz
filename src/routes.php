@@ -5,14 +5,11 @@ $app->get('/', function ($request, $response, $args) {
     // Sample log message
    // $this->logger->info("Slim-Skeleton '/' route");
 
-    // Render index view
-    $template = 'index.twig.php';
-    
     if(is_mobile()) {
-        $template = 'mobile/index.twig.php';
+        return $response->withHeader('Location',  $request->getUri()->getBaseUrl() . '/m');
     }
     
-    return $this->view->render($response, $template, ['pageTitle' => '首页', 'name' => 'name']);
+    return $this->view->render($response, 'index.twig.php', ['pageTitle' => '首页', 'name' => 'name']);
 });
 
 $app->get('/cleaning', function ($request, $response, $args) {
@@ -27,7 +24,6 @@ $app->get('/caring', function ($request, $response, $args) {
 $app->get('/mammy', function ($request, $response, $args) {
 	return $this->view->render($response, 'mammy.twig.php', ['pageTitle' => '月嫂 - 母婴护理', 'name' => 'name']);
 });
-	
 	
 $app->get('/baby', function ($request, $response, $args) {
 	return $this->view->render($response, 'baby.twig.php', ['pageTitle' => '育儿嫂', 'name' => 'name']);
@@ -45,5 +41,13 @@ $app->get('/hourly', function ($request, $response, $args) {
 
 $app->get('/about', function ($request, $response, $args) {
 	return $this->view->render($response, 'about.twig.php', ['pageTitle' => '关于天地', 'name' => 'name']);
+});
+
+/**
+ * 移动页面
+ */
+$app->get('/m', function ($request, $response, $args) {
+
+    return $this->view->render($response, 'mobile/index.twig.php', ['pageTitle' => '首页', 'name' => 'name']);
 });
 	

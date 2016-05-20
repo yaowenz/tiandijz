@@ -9,6 +9,8 @@ body {
 
 p {line-height:1.6}
 
+#logo {position:absolute;z-index:10;left:5%;top:0px}
+
 .icon {
   width: 16px;
   height: 16px;

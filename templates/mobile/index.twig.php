@@ -11,17 +11,25 @@
     <script src="{{baseUrl}}/js/jquery-dist/jquery.min.js"></script>
     <script src="{{baseUrl}}/js/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
     <script src="{{baseUrl}}/js/swiper-dist/js/swiper.jquery.min.js"></script>
-
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?baf5d338db2829b710f913b529891e1c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
   </head>
   <body id="index">
+  	<div id="logo"><img src="{{baseUrl}}/images/mobile/logo-header.png" width="50%" /></div>
     <div class="container-fuild" style="padding-bottom: 60px;">
-
       <!--banner-->
       <div id="banner" class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/banner_1.jpg" /></div>
-          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/banner_1.jpg" /></div>
-          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/banner_1.jpg" /></div>
+          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/banner_2.jpg" /></div>
+          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/banner_3.jpg" /></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -68,8 +76,8 @@
       <div id="ad" class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/ad_1.jpg" /></div>
-          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/ad_1.jpg" /></div>
-          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/ad_1.jpg" /></div>
+          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/ad_2.jpg" /></div>
+          <div class="swiper-slide"><img src="{{baseUrl}}/images/mobile/ad_3.jpg" /></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

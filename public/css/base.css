@@ -21,10 +21,7 @@ td.align.center {text-align:center}
 .swiper-container-banner img{width: 100%;position: absolute;top: 0;left: 0;min-width: 1080px;}
 .swiper-container-banner .swiper-pagination-bullet{width: 12px;height: 12px;background: #fff;opacity: 1;}
 .swiper-container-banner .swiper-pagination-bullet-active{width: 12px;height: 12px;background: #F08300;}*/
-.lubo img{position: absolute;top: 0;left: 0;}
-.lubo .text{position: relative;z-index: 3;text-align: left;left: 100px;top:200px;}
-.lubo .text h1{font-size: 42px;color: #f08200;}
-.lubo .text h2{font-size: 20px;color: #383635;padding-left:5px}
+.lubo img{position: absolute;text-align: left;left: 25%;top:200px;}
 /*.swiper-container-sk{width: 465px;height: 300px;}
 .swiper-wrapper-sk{height: 270px;} 
 .swiper-container-sk img{width: 100%;} 
@@ -330,7 +327,7 @@ td.align.center {text-align:center}
 .dec li{margin-top:0px;float:left;display:inline;}
 #price h4 {color:#5EBFAE!important;font-size:18px;line-height:30px;margin-bottom:10px!important}
 /** silders **/
-.index.slider {background-position:center bottom;background-size:100% auto}
+.index.slider {background-position:center bottom;background-size:cover;background-repeat:no-repeat;}
 .index.slider-1 {background-image:url('../images/banner1.jpg')}
 .index.slider-2 {background-image:url('../images/banner2.jpg')}
 .index.slider-3 {background-image:url('../images/banner3.jpg')}

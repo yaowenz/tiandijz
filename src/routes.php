@@ -9,7 +9,8 @@ $app->get('/', function ($request, $response, $args) {
         return $response->withHeader('Location',  $request->getUri()->getBaseUrl() . '/m');
     }
     
-    return $this->view->render($response, 'index.twig.php', ['pageTitle' => '首页', 'name' => 'name']);
+    return $this->view->render($response, 'index.twig.php', ['name' => 'name']);
+
 });
 
 $app->get('/cleaning', function ($request, $response, $args) {
@@ -48,6 +49,6 @@ $app->get('/about', function ($request, $response, $args) {
  */
 $app->get('/m', function ($request, $response, $args) {
 
-    return $this->view->render($response, 'mobile/index.twig.php', ['pageTitle' => '首页', 'name' => 'name']);
+    return $this->view->render($response, 'mobile/index.twig.php', ['name' => 'name']);
 });
 	

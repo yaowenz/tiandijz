@@ -7,6 +7,8 @@
   .lubo{ width: 100%; min-width:1080px;clear: both; position: absolute; height:550px;z-index: 2;}
   .lubo_box{ position: relative; width: 100%; height:368px; }
   .lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%; height:550px; opacity: 0;filter:alpha(opacity=0);}
+  .lubo_box li.slider-2 {z-index:10}
+  .lubo_box li.slider-3 {z-index:15}  
   .lubo_box li a{ display: block;width: 100%;  height: 100%;background-size:100% ;}
 
   /*圆点*/

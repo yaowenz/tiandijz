@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<title>{{ pageTitle ? pageTitle ~ ' - ' : '' }}天地家政</title>
+	<title>天地家政{{ pageTitle ? ' - ' ~ pageTitle : '' }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="{{baseUrl}}/css/base.css" />
     <script src="{{baseUrl}}/js/jquery.min.js"></script>

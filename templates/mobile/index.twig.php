@@ -11,6 +11,7 @@
     <script src="{{baseUrl}}/js/jquery-dist/jquery.min.js"></script>
     <script src="{{baseUrl}}/js/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
     <script src="{{baseUrl}}/js/swiper-dist/js/swiper.jquery.min.js"></script>
+    <script src="{{baseUrl}}/js/fastclick.js"></script>
     <script>
     var _hmt = _hmt || [];
     (function() {
@@ -35,39 +36,41 @@
       </div>
 
       <!--mssage-->
+      <!-- 
       <div id="message" class="row-fuild clearfix">
         <div class="form-control-static col-xs-12 ">
           <i class="icon icon-msg"></i>天地家政老师有责任感，不厌其烦帮我推荐阿姨。
         </div>
       </div>
+       -->
 
       <!-- categray -->
       <div id="categray" class="clearfix form">
         <div class="row-fuild form-group clearfix">
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c1.png" alt="保洁" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c1.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_role=1'" alt="保洁" />
             <h4>保洁</h4>
           </div>
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c2.png" alt="育儿嫂" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c2.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_role=4&job_type=1,2'" alt="育儿嫂" />
             <h4>育儿嫂</h4>
           </div>
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c3.png" alt="护工／护理" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c3.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_role=5,7'" alt="护工／护理" />
             <h4>护工／护理</h4>
           </div>
         </div>
         <div class="row-fuild form-group clearfix">
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c4.png" alt="全套家务" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c4.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_type=2'" alt="全套家务" />
             <h4>全套家务</h4>
           </div>
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c5.png" alt="月嫂" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c5.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_role=3'" alt="月嫂" />
             <h4>月嫂</h4>
           </div>
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c6.png" alt="钟点工">
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c6.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list?job_type=3'" alt="钟点工">
             <h4>钟点工</h4>
           </div>
         </div>
@@ -120,22 +123,21 @@
         </div>
       </div>
     </div>
-
     <!-- footer-->
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container-fuild">
         <div class="btn-group btn-group-justified" role="group">
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link active "><i class="icon icon-home"></i>首页</button>
+            <button type="button" class="btn btn-link active" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg'"><i class="icon icon-home"></i>首页</button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link"><i class="icon icon-chooseperson"></i>在线选人</button>
+            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/list'"><i class="icon icon-chooseperson"></i>在线选人</button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link"><i class="icon icon-requirement"></i>提交需求</button>
+            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/submit'"><i class="icon icon-requirement"></i>提交需求</button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link"><i class="icon icon-order"></i>我的订单</button>
+            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz_sg#/my'"><i class="icon icon-order"></i>我的订单</button>
           </div>
 
         </div>
@@ -144,13 +146,17 @@
 
     <!--script-->
     <script>
+		jQuery(function($) {
+			FastClick.attach(document.body);
+      });
       var banner = new Swiper('#banner', {
-        pagination : '#banner .swiper-pagination'
+        pagination : '#banner .swiper-pagination',
+        autoplay : 3000
       });
       var ad = new Swiper('#ad', {
-        pagination : '#ad .swiper-pagination'
+        pagination : '#ad .swiper-pagination',
+        	autoplay : 2500
       });
     </script>
-
   </body>
 </html>

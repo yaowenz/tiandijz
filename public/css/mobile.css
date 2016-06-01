@@ -9,6 +9,9 @@ body {
 
 p {line-height:1.6}
 
+.btn:active {border:none!important}
+:focus {outline:none!important}
+
 #logo {position:absolute;z-index:10;left:5%;top:0px}
 
 .icon {
@@ -143,7 +146,7 @@ p {line-height:1.6}
   margin-bottom: 5px;
 }
 #index #honor img {
-  width: 60%;
+  width: 50%;
 }
 #index #honor p {
   line-height: 1em;

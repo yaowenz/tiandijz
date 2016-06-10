@@ -84,7 +84,7 @@ body {background-color:#ECEAE8}
 			<h4 style="margin-top:50px">全日制</h4>
 			<table class="service">
 				<tr>
-					<th width="50%">服务时间</th><
+					<th width="50%">服务时间</th>
 					<th>准员工制</th>
 				</tr>
 				<tr>

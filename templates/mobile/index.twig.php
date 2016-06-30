@@ -115,13 +115,34 @@
             </a>
           </div>
           <div class="media-body">
-            <h3 class="media-heading">天地家政<i class="icon icon-sh"></i></h3>
+            <h3 class="media-heading">古北店<i class="icon icon-sh"></i></h3>
             <p><i class="icon icon-hotline"></i> 预约热线：021-62191958</p>
-            <p><i class="icon icon-business-hours"></i> 营业时间：09:00-22:00  全年无休</p>
-            <!--<p><i class="icon icon-address"></i> 门店地址：荣华东道102号701室</p>  -->
+            <p><i class="icon icon-address"></i> 长宁区荣华东道102号701室</p>
+          </div>
+          <div class="media-body1">
+            <h3 class="media-heading">市光路店<i class="icon icon-sh"></i></h3>
+            <p><i class="icon icon-hotline"></i> 预约热线：021-55969953</p>
+            <p><i class="icon icon-address"></i> 杨浦区市光路248号</p>
+          </div>
+          <div class="media-body2">
+            <h3 class="media-heading">世界路店<i class="icon icon-sh"></i></h3>
+            <p><i class="icon icon-hotline"></i> 预约热线：021-55781151</p>
+            <p><i class="icon icon-address"></i> 杨浦区世界路31-1号</p>
+          </div>
+          <div class="media-body3">
+            <h3 class="media-heading">青浦店<i class="icon icon-sh"></i></h3>
+            <p><i class="icon icon-hotline"></i> 预约热线：021-60895046</p>
+            <p><i class="icon icon-address"></i> 青浦区诸翟民鑫菜市场内C-18</p>
+          </div>
+          <div class="media-body4">
+            <h3 class="media-heading">广场店<i class="icon icon-sh"></i></h3>
+            <p><i class="icon icon-hotline"></i> 预约热线：021-61314099</p>
+            <p><i class="icon icon-address"></i> 水城南路37号万科广场3D</p>
           </div>
         </div>
       </div>
+      </div>
+
     </div>
     <!-- footer-->
     <nav class="navbar navbar-default navbar-fixed-bottom">

@@ -129,11 +129,6 @@
             <p><i class="icon icon-hotline"></i> 预约热线：021-55781151</p>
             <p><i class="icon icon-address"></i> 杨浦区世界路31-1号</p>
           </div>
-          <div class="media-body3">
-            <h3 class="media-heading">青浦店<i class="icon icon-sh"></i></h3>
-            <p><i class="icon icon-hotline"></i> 预约热线：021-60895046</p>
-            <p><i class="icon icon-address"></i> 青浦区诸翟民鑫菜市场内C-18</p>
-          </div>
           <div class="media-body4">
             <h3 class="media-heading">广场店<i class="icon icon-sh"></i></h3>
             <p><i class="icon icon-hotline"></i> 预约热线：021-61314099</p>
@@ -149,7 +144,7 @@
       <div class="container-fuild">
         <div class="btn-group btn-group-justified" role="group">
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link active" onclick="location.href='http://m.haojialian123.com/s/tiandijz'"><i class="icon icon-home"></i>首页</button>
+            <button type="button" class="btn btn-link active"><i class="icon icon-home"></i>首页</button>
           </div>
           <div class="btn-group" role="group">
             <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz#/workers'"><i class="icon icon-chooseperson"></i>在线选人</button>

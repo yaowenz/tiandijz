@@ -332,4 +332,8 @@ td.align.center {text-align:center}
 .index.slider-2 {background-image:url('../images/banner2.jpg')}
 .index.slider-3 {background-image:url('../images/banner3.jpg')}
 
+.wechat {background: #FFF}
+.wechat_titile {text-align: center; padding-top: 25px; padding-bottom: 25px}
+.wechat_titile img {width: 180px; height: 180px; background: #ccc}
+.wechat_titile p {font-size: 18px; color: #333; padding-top: 25px}
 

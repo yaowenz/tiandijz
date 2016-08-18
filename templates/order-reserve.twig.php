@@ -1,8 +1,8 @@
 <div class="order" style="display: block;">
-	<div class="top">
+	<!-- <div class="top">
 		<h2>在线预约</h2>
 		<p style="padding:15px;font-size:18px">敬请期待...</p>
-		<!-- 
+		
 		<form action="" method="">
 			<div class="frist"><span class="tle">服务项目 : </span>
 				<div class="radio">
@@ -39,7 +39,13 @@
 		</form>
 		<p class="tz tz1">成功下单后我们尽快和您联系!</p>
 		<p class="tz tz2">下单后建议您阅读《顾客须知》，以便我们为您更好的服务</p>
-	 -->
+	</div> -->
+	<div class="wechat">
+		<h2>微信预约</h2>
+		<div class="wechat_titile">
+			<img src="images/web-wx-reserve.png">
+			<p>微信预约更加便捷</p>
+	    </div>
 	</div>
 	<div class="ask">
 		<img src="images/iconfont-phone.png" height="40px"/>

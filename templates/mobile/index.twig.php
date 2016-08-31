@@ -150,10 +150,10 @@
             <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz/workers'"><i class="icon icon-chooseperson"></i>在线选人</button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz/submit'"><i class="icon icon-requirement"></i>提交需求</button>
+            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz/job/submit/category'"><i class="icon icon-requirement"></i>提交需求</button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz/my'"><i class="icon icon-order"></i>我的订单</button>
+            <button type="button" class="btn btn-link" onclick="location.href='http://m.haojialian123.com/s/tiandijz/my/orders'"><i class="icon icon-order"></i>我的订单</button>
           </div>
         </div>
       </div>

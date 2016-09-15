@@ -131,7 +131,7 @@
           </div>
           <div class="media-body4">
             <h3 class="media-heading">广场店<i class="icon icon-sh"></i></h3>
-            <p><i class="icon icon-hotline"></i> 预约热线：021-61314099</p>
+            <p><i class="icon icon-hotline"></i> 预约热线：021-62195891</p>
             <p><i class="icon icon-address"></i> 水城南路37号万科广场3D</p>
           </div>
         </div>

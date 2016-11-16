@@ -63,7 +63,7 @@
 				</ul>
 				<div class="clearfix"></div>
 				<h4><img src="{{baseUrl}}/images/foot-house.png" />上海市示范性家政服务站</h4>
-				<h5>上海天地家政服务有限公司, 沪ICP备09066589号-1</h5>
+				<h5>上海天地家政服务有限公司, <a target="_blank" style="text-decoration:underline" href="http://www.miitbeian.gov.cn">沪ICP备09066589号-1</a></h5>
 				<h5></h5>
 			</div>
 		</div>

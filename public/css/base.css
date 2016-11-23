@@ -295,9 +295,11 @@ td.align.center {text-align:center}
 .foot .foot-logo{width: 140px;margin-top: 20px;}
 .foot .l-b{position: absolute;bottom: 10px;left: 0;}
 .foot .code{width: 150px;float: left;}
-.foot .box{float: left;margin-left: 15px;margin-top:60px}
+.foot .box{float: left;margin-left: 15px}
 .foot .box .thefrist{margin-top: 20px;}
 .foot .box .theLast img{vertical-align: middle;}
+.foot .license {display: inline-block;width: 46px;height: 46px;background: #fff;text-align: center;margin-right: 10px}
+.foot .license > img {height: 46px}
 .foot .r{padding-top: 20px;float: right;width: 550px;}
 .foot .r a{color: #fff;}
 .foot .r>ul{height: 145px;}

@@ -23,9 +23,10 @@
 				<div class="l-b">
 					<img src="{{baseUrl}}/images/qrcode-tdjz.jpg" class="code"/>
 					<div class="box">
-						<p class="thefrist">服务时间 : </p>
+						<p>服务时间 : </p>
 						<p style="margin-bottom:5px">早 9:00 ~ 晚 22:00，全年无休</p>
-						<p class="theLast"><img src="{{baseUrl}}/images/phone-07.png" />021-62191958</p>
+						<p style="margin-bottom:35px"><img src="{{baseUrl}}/images/phone-07.png" />021-62191958</p>
+						<p><a href="http://218.242.124.22:8081/businessCheck/verifKey.do?showType=extShow&serial=9031000020160624103419000000974296-SAIC_SHOW_310000-20161114151223367870&signData=MEYCIQDvfiREXnjO9/eP/LJW0xQntM+JjDxyDvf/d8Yp0YSFPQIhAMgf+h09Octp/DfjkiurIAmt3kwuF8JyGJi3KaIkBlAZ"><span class="license"><img src="{{baseUrl}}/images/license.jpg"></span><img src="{{baseUrl}}/images/sh-business.png"></a></p>
 					</div>
 				</div>
 			</div>

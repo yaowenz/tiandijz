@@ -84,7 +84,10 @@
         </div>
         <div class="swiper-pagination"></div>
       </div>
-
+	  <!--Banners-->
+	  <div style="margin:10px 0px">
+		<img src="{{baseUrl}}/images/banners/201612-mdlc.jpg" width="100%" onclick="location.href='http://dwz.cn/4MF7t4'" />
+	  </div>
       <!-- honor -->
       <div id="honor" class="row-fuild clearfix">
         <div class="btn-group btn-group-justified" role="group" aria-label="">

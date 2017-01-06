@@ -62,7 +62,7 @@
         </div>
         <div class="row-fuild form-group clearfix">
           <div class="col-xs-4">
-            <img class="img-circle" src="{{baseUrl}}/images/mobile/c4.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz/workers?job_type=2'" alt="全套家务" />
+            <img class="img-circle" src="{{baseUrl}}/images/mobile/c4.png" onclick="location.href='http://m.haojialian123.com/s/tiandijz/workers?job_role=1,2,9'" alt="全套家务" />
             <h4>全套家务</h4>
           </div>
           <div class="col-xs-4">
